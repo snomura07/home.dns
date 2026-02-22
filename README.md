@@ -24,7 +24,6 @@
 - `zones/db.home.dns`: `home.dns` ゾーン（`* IN A 192.168.137.11`）
 - `nginx/nginx.conf`: Nginx メイン設定
 - `nginx/conf.d/*.conf`: アプリごとの vhost 設定
-- `cache/`, `logs/`: BIND 永続化
 
 ## 起動
 

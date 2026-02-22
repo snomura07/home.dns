@@ -9,8 +9,6 @@ services:
     volumes:
       - ./named.conf:/etc/bind/named.conf:ro
       - ./zones:/etc/bind/zones:ro
-      - ./cache:/var/cache/bind
-      - ./logs:/var/log/named
 
   reverse-proxy:
     image: nginx:1.27-alpine
