@@ -1,13 +1,13 @@
 $TTL 300
-@ IN SOA ns.home.dns. root.home.dns. (
-  2026022202 ; serial
+@ IN SOA ns.home. root.home. (
+  2026022203 ; serial
   3600       ; refresh
   900        ; retry
   604800     ; expire
   300        ; minimum
 )
 
-@ IN NS ns.home.dns.
+@ IN NS ns.home.
 @ IN A 192.168.137.11
 ns IN A 192.168.137.11
 * IN A 192.168.137.11
